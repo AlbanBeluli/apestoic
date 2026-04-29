@@ -70,26 +70,6 @@ if (navbar) {
   });
 }
 
-/* ── MOBILE NAV ──────────────────────────────────────────────────── */
-
-const burger = document.querySelector('.nav-burger');
-const navLinks = document.querySelector('.nav-links');
-
-if (burger && navLinks) {
-  burger.addEventListener('click', () => {
-    const open = navLinks.classList.toggle('open');
-    burger.classList.toggle('open', open);
-    burger.setAttribute('aria-expanded', open);
-  });
-
-  navLinks.querySelectorAll('a').forEach(link => {
-    link.addEventListener('click', () => {
-      navLinks.classList.remove('open');
-      burger.classList.remove('open');
-      burger.setAttribute('aria-expanded', 'false');
-    });
-  });
-}
 
 /* ── FADE-UP ─────────────────────────────────────────────────────── */
 

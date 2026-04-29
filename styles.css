@@ -1116,6 +1116,74 @@ body.loading { overflow: hidden; }
   .footer-top { grid-template-columns: 1fr 1fr; }
 }
 
+/* ── HAMBURGER BUTTON ────────────────────────────────────────────── */
+.nav-burger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  width: 36px;
+  height: 36px;
+}
+
+.nav-burger span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: var(--text-primary);
+  transition: transform 0.25s, opacity 0.25s;
+  transform-origin: center;
+}
+
+.nav-burger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.nav-burger.open span:nth-child(2) { opacity: 0; }
+.nav-burger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+@media (max-width: 780px) {
+  .nav-burger { display: flex; }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    gap: 0;
+    background: #0f1115;
+    border-bottom: 2px solid var(--red);
+    padding: 0.5rem 0 1rem;
+    list-style: none;
+  }
+
+  .nav-links.open { display: flex; }
+
+  .nav-links li { width: 100%; }
+
+  .nav-links a {
+    display: block;
+    padding: 0.85rem 1.5rem;
+    font-size: 0.85rem;
+    color: rgba(255,255,255,0.75);
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+  }
+
+  .nav-links li:last-child a { border-bottom: none; }
+
+  .nav-links a:hover { color: #fff; background: rgba(255,255,255,0.04); }
+
+  .nav-cta {
+    margin: 0.75rem 1.5rem 0 !important;
+    display: block !important;
+    text-align: center !important;
+    padding: 0.7rem 1.2rem !important;
+  }
+}
+
 @media (max-width: 600px) {
   nav { padding: 0 1.2rem; }
   .section { padding: 4rem 1.2rem; }
@@ -1125,5 +1193,4 @@ body.loading { overflow: hidden; }
   .stats-strip { grid-template-columns: 1fr 1fr; }
   .cta-form { flex-direction: column; }
   .cta-form input { border-right: 1px solid rgba(255,255,255,0.12); border-bottom: none; }
-  .nav-links { gap: 0.8rem; }
 }

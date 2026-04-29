@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terms of Use — Ape Stoic OÜ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .imprint-page {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 9rem 2.5rem 6rem;
+    }
+
+    .imprint-page h1 {
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 900;
+      letter-spacing: -0.04em;
+      line-height: 1.1;
+      margin-bottom: 0.5rem;
+    }
+
+    .imprint-intro {
+      font-size: 0.88rem;
+      color: var(--text-dim);
+      margin-bottom: 3rem;
+      font-family: var(--font-mono);
+      letter-spacing: 0.05em;
+    }
+
+    .imprint-block {
+      border: 1px solid var(--border);
+      margin-bottom: 1px;
+    }
+
+    .imprint-block:first-of-type { border-top: 2px solid var(--red); }
+
+    .imprint-block-title {
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      padding: 0.7rem 1.2rem;
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: var(--text-dim);
+    }
+
+    .imprint-rows { display: flex; flex-direction: column; }
+
+    .imprint-row {
+      display: grid;
+      grid-template-columns: 200px 1fr;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .imprint-row:last-child { border-bottom: none; }
+
+    .imprint-key {
+      padding: 0.9rem 1.2rem;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--text-dim);
+      border-right: 1px solid var(--border);
+    }
+
+    .imprint-val {
+      padding: 0.9rem 1.2rem;
+      font-size: 0.85rem;
+      color: var(--text-primary);
+      line-height: 1.6;
+    }
+
+    .imprint-val a {
+      color: var(--red);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    .imprint-val a:hover { color: var(--red-dark); }
+
+    .imprint-val.warn {
+      color: var(--red);
+      font-weight: 600;
+      font-size: 0.82rem;
+    }
+
+    .imprint-prose {
+      padding: 1.2rem;
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      line-height: 1.75;
+    }
+
+    .imprint-prose + .imprint-prose {
+      border-top: 1px solid var(--border);
+    }
+
+    .imprint-section-gap { margin-top: 2.5rem; }
+
+    .imprint-section-heading {
+      font-size: 0.65rem;
+      font-family: var(--font-mono);
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: var(--red);
+      margin-bottom: 0.6rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .imprint-section-heading::before { content: ''; width: 16px; height: 2px; background: var(--red); }
+
+    .notice-block {
+      border: 1px solid var(--red-border);
+      background: var(--red-dim);
+      padding: 1.2rem;
+      margin-bottom: 2rem;
+      font-size: 0.85rem;
+      color: var(--text-primary);
+      line-height: 1.75;
+    }
+
+    .notice-block strong { color: var(--red); }
+
+    @media (max-width: 600px) {
+      .imprint-row { grid-template-columns: 1fr; }
+      .imprint-key { border-right: none; border-bottom: 1px solid var(--border); padding-bottom: 0.4rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ── NAV ──────────────────────────────────────────────────── -->
+  <nav id="navbar">
+    <a href="index.html" class="nav-logo">
+      <div class="nav-logo-mark">A</div>
+      APE STOIC
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html#services">Services</a></li>
+      <li><a href="index.html#process">Methodology</a></li>
+      <li><a href="index.html#why">Why Ape Stoic</a></li>
+      <li><a href="index.html#work">Work</a></li>
+      <li><a href="index.html#contact" class="nav-cta">Request Assessment</a></li>
+    </ul>
+  </nav>
+
+  <!-- ── CONTENT ───────────────────────────────────────────────── -->
+  <main class="imprint-page">
+
+    <div class="eyebrow">Legal</div>
+    <h1>Terms of Use</h1>
+    <p class="imprint-intro">Last updated: February 2026 &nbsp;·&nbsp; Ape Stoic OÜ</p>
+
+    <div class="notice-block">
+      <strong>Important:</strong> All penetration testing, red team, and offensive security services provided
+      by Ape Stoic OÜ are conducted exclusively under written authorisation from the asset owner or a party
+      with lawful authority to grant such authorisation. Unauthorised access to computer systems is illegal.
+      We do not perform any testing without a signed scope of work and authorisation document.
+    </div>
+
+    <!-- Acceptance -->
+    <div class="imprint-section-heading">Acceptance</div>
+    <div class="imprint-block">
+      <div class="imprint-block-title">Agreement to these terms</div>
+      <div class="imprint-prose">
+        By accessing this website or engaging Ape Stoic OÜ for any service, you confirm that you have read,
+        understood, and agree to be bound by these Terms of Use. If you do not agree, you must not use this
+        website or engage our services. These terms apply to all visitors, clients, and any other party who
+        interacts with Ape Stoic OÜ.
+      </div>
+    </div>
+
+    <!-- About Us -->
+    <div class="imprint-section-gap"></div>
+    <div class="imprint-section-heading">About Our Services</div>
+    <div class="imprint-block">
+      <div class="imprint-block-title">What Ape Stoic OÜ provides</div>
+      <div class="imprint-rows">
+        <div class="imprint-row">
+          <div class="imprint-key">Services</div>
+          <div class="imprint-val">Penetration testing, red team operations, adversary simulation, web and API security assessments, Active Directory attack path analysis, cloud security reviews, and social engineering engagements</div>
+        </div>
+        <div class="imprint-row">
+          <div class="imprint-key">Prerequisite</div>
+          <div class="imprint-val">All offensive security services require a signed engagement agreement, scope of work, and authorisation letter prior to commencement</div>
+        </div>
+        <div class="imprint-row">
+          <div class="imprint-key">Jurisdiction</div>
+          <div class="imprint-val">Ape Stoic OÜ is registered in Estonia and operates under Estonian and EU law</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Eligibility -->
+    <div class="imprint-section-gap"></div>
+    <div class="imprint-section-heading">Eligibility</div>
+    <div class="imprint-block">
+      <div class="imprint-block-title">Who may engage our services</div>
+      <div class="imprint-rows">
+        <div class="imprint-row">
+          <div class="imprint-key">Age</div>
+          <div class="imprint-val">You must be at least 18 years of age to enter into a service agreement with Ape Stoic OÜ</div>
+        </div>
+        <div class="imprint-row">
+          <div class="imprint-key">Authority</div>
+          <div class="imprint-val">You must have lawful authority to authorise security testing of the systems in scope. This means you are the owner, or have explicit written permission from the owner</div>
+        </div>
+        <div class="imprint-row">
+          <div class="imprint-key">Compliance</div>
+          <div class="imprint-val">You must not be subject to sanctions, export controls, or other legal restrictions that would prevent you from engaging our services</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Authorisation -->
+    <div class="imprint-section-gap"></div>
+    <div class="imprint-section-heading">Authorisation Requirement</div>
+    <div class="imprint-block">
+      <div class="imprint-block-title">Written authorisation is mandatory</div>
+      <div class="imprint-prose">
+        No engagement will begin without a signed authorisation document explicitly defining the scope of
+        testing, the systems in scope, the testing window, and the contact persons for the client organisation.
+        This document forms the legal basis for all offensive activities conducted by Ape Stoic OÜ.
+      </div>
+      <div class="imprint-prose">
+        The client bears sole responsibility for ensuring that the authorisation covers all systems, networks,
+        and third-party infrastructure included in the scope. Ape Stoic OÜ accepts no liability for actions
+        taken within an agreed scope that were later found to exceed the client's actual authority.
+      </div>
+      <div class="imprint-prose">
+        Any attempt to engage Ape Stoic OÜ for testing against systems the client does not own or does not
+        have lawful authority to test will result in immediate termination of the engagement and may be
+        reported to the relevant authorities.
+      </div>
+    </div>
+
+    <!-- IP -->
+    <div class="imprint-section-gap"></div>
+    <div class="imprint-section-heading">Intellectual Property</div>
+    <div class="imprint-block">
+      <div class="imprint-block-title">Ownership of work product</div>
+      <div class="imprint-rows">
+        <div class="imprint-row">
+          <div class="imprint-key">Website content</div>
+          <div class="imprint-val">All content on this website — including text, design, and code — is owned by Ape Stoic OÜ and protected by copyright. Reproduction without written consent is prohibited</div>
+        </div>
+        <div class="imprint-row">
+          <div class="imprint-key">Engagement reports</div>
+          <div class="imprint-val">Deliverables produced during an engagement (reports, timelines, findings) are provided to the client for their internal use. Ape Stoic OÜ retains the right to reference engagement methodologies in anonymised form</div>
+        </div>
+        <div class="imprint-row">
+          <div class="imprint-key">Tools & tooling</div>
+          <div class="imprint-val">Any custom tools, scripts, or infrastructure developed by Ape Stoic OÜ remain the exclusive intellectual property of Ape Stoic OÜ unless otherwise agreed in writing</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Confidentiality -->
+    <div class="imprint-section-gap"></div>
+    <div class="imprint-section-heading">Confidentiality</div>
+    <div class="imprint-block">
+      <div class="imprint-block-title">Mutual obligations</div>
+      <div class="imprint-prose">
+        Ape Stoic OÜ treats all client information, system details, findings, and engagement data as strictly
+        confidential. This obligation survives the termination of any engagement and has no expiry date unless
+        otherwise agreed in a signed NDA.
+      </div>
+      <div class="imprint-prose">
+        Clients agree to treat all methodologies, tooling details, and proprietary information disclosed by
+        Ape Stoic OÜ during an engagement as confidential. A mutual NDA is available on request prior to
+        scoping discussions.
+      </div>
+    </div>
+
+    <!-- Liability -->
+    <div class="imprint-section-gap"></div>
+    <div class="imprint-section-heading">Limitation of Liability</div>
+    <div class="imprint-block">
+      <div class="imprint-block-title">Scope of our liability</div>
+      <div class="imprint-rows">
+        <div class="imprint-row">
+          <div class="imprint-key">Within agreed scope</div>
+          <div class="imprint-val">Ape Stoic OÜ is not liable for damage, outages, or data loss that occurs as a direct result of authorised testing activities within the agreed scope of work</div>
+        </div>
+        <div class="imprint-row">
+          <div class="imprint-key">Maximum liability</div>
+          <div class="imprint-val">Our total liability for any claim arising from a specific engagement shall not exceed the total fees paid by the client for that engagement</div>
+        </div>
+        <div class="imprint-row">
+          <div class="imprint-key">Exclusions</div>
+          <div class="imprint-val">We are not liable for indirect, consequential, or incidental damages, loss of profits, or business interruption — except where liability cannot be excluded under applicable Estonian or EU law</div>
+        </div>
+        <div class="imprint-row">
+          <div class="imprint-key">Website use</div>
+          <div class="imprint-val">This website is provided "as is". We do not warrant uninterrupted availability and accept no liability for any reliance on information presented here</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Prohibited Use -->
+    <div class="imprint-section-gap"></div>
+    <div class="imprint-section-heading">Prohibited Use</div>
+    <div class="imprint-block">
+      <div class="imprint-block-title">You must not</div>
+      <div class="imprint-prose">
+        Use this website or our services to facilitate any unlawful activity, including but not limited to:
+        unauthorised access to computer systems; attempting to engage us to attack systems you do not own or
+        have no authority to test; misrepresenting your identity or authority; engaging in fraud; attempting
+        to reverse-engineer, scrape, or exploit this website; or using our name or brand to imply endorsement
+        of any product or service without written consent.
+      </div>
+    </div>
+
+    <!-- Governing Law -->
+    <div class="imprint-section-gap"></div>
+    <div class="imprint-section-heading">Governing Law & Disputes</div>
+    <div class="imprint-block">
+      <div class="imprint-block-title">Jurisdiction and dispute resolution</div>
+      <div class="imprint-rows">
+        <div class="imprint-row">
+          <div class="imprint-key">Governing law</div>
+          <div class="imprint-val">These terms are governed by the laws of the Republic of Estonia, without regard to conflict of law principles</div>
+        </div>
+        <div class="imprint-row">
+          <div class="imprint-key">Jurisdiction</div>
+          <div class="imprint-val">Any dispute arising from these terms or an engagement shall be submitted to the exclusive jurisdiction of Harju County Court, Tallinn, Estonia</div>
+        </div>
+        <div class="imprint-row">
+          <div class="imprint-key">EU consumers</div>
+          <div class="imprint-val">If you are a consumer within the EU, you retain the right to bring proceedings in the courts of your country of residence under applicable EU consumer protection law</div>
+        </div>
+        <div class="imprint-row">
+          <div class="imprint-key">ODR</div>
+          <div class="imprint-val">The EU Online Dispute Resolution platform is available at <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener noreferrer">ec.europa.eu/consumers/odr</a></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Changes -->
+    <div class="imprint-section-gap"></div>
+    <div class="imprint-section-heading">Changes to These Terms</div>
+    <div class="imprint-block">
+      <div class="imprint-block-title">Updates</div>
+      <div class="imprint-prose">
+        We reserve the right to update these Terms of Use at any time. The date at the top of the page
+        reflects the most recent revision. Continued use of this website or our services after changes are
+        posted constitutes acceptance of the revised terms. Active clients will be notified of material
+        changes by email.
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="imprint-section-gap"></div>
+    <div class="imprint-section-heading">Contact</div>
+    <div class="imprint-block">
+      <div class="imprint-block-title">Questions about these terms</div>
+      <div class="imprint-rows">
+        <div class="imprint-row">
+          <div class="imprint-key">Email</div>
+          <div class="imprint-val"><a href="mailto:ops@apestoic.com">ops@apestoic.com</a></div>
+        </div>
+        <div class="imprint-row">
+          <div class="imprint-key">Address</div>
+          <div class="imprint-val">Ape Stoic OÜ, Sepapaja tn 6, 15551 Tallinn, Estonia</div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ── FOOTER ────────────────────────────────────────────────── -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div>
+          <div class="footer-logo">
+            <div class="footer-logo-mark">A</div>
+            APE STOIC
+          </div>
+          <p class="footer-brand-desc">
+            Elite penetration testing, red team, and offensive AI operations for organizations that take security seriously.
+          </p>
+          <div class="footer-contact-links">
+            <a href="mailto:ops@apestoic.com">ops@apestoic.com</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h5>Head Quarters</h5>
+          <p class="footer-brand-desc">
+            Ape Stoic OÜ<br />
+            Sepapaja tn 6,<br />
+            15551 Tallinn, Estonia
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h5>Europe First</h5>
+          <p class="footer-brand-desc">Forged in Europe.<br />For Europe. 🇪🇪</p>
+        </div>
+
+        <div class="footer-col">
+          <h5>Social</h5>
+          <div class="footer-social">
+            <a href="https://x.com/apestoic" target="_blank" rel="noopener noreferrer" aria-label="X / Twitter">𝕏</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Ape Stoic OÜ</p>
+        <div class="footer-legal">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of use</a>
+          <a href="imprint.html">Imprint</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Ape Stoic OÜ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .imprint-page {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 9rem 2.5rem 6rem;
+    }
+
+    .imprint-page h1 {
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 900;
+      letter-spacing: -0.04em;
+      line-height: 1.1;
+      margin-bottom: 0.5rem;
+    }
+
+    .imprint-intro {
+      font-size: 0.88rem;
+      color: var(--text-dim);
+      margin-bottom: 3rem;
+      font-family: var(--font-mono);
+      letter-spacing: 0.05em;
+    }
+
+    .imprint-block {
+      border: 1px solid var(--border);
+      margin-bottom: 1px;
+    }
+
+    .imprint-block:first-of-type { border-top: 2px solid var(--red); }
+
+    .imprint-block-title {
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      padding: 0.7rem 1.2rem;
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: var(--text-dim);
+    }
+
+    .imprint-rows { display: flex; flex-direction: column; }
+
+    .imprint-row {
+      display: grid;
+      grid-template-columns: 200px 1fr;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .imprint-row:last-child { border-bottom: none; }
+
+    .imprint-key {
+      padding: 0.9rem 1.2rem;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--text-dim);
+      border-right: 1px solid var(--border);
+    }
+
+    .imprint-val {
+      padding: 0.9rem 1.2rem;
+      font-size: 0.85rem;
+      color: var(--text-primary);
+      line-height: 1.6;
+    }
+
+    .imprint-val a {
+      color: var(--red);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    .imprint-val a:hover { color: var(--red-dark); }
+
+    .imprint-prose {
+      padding: 1.2rem;
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      line-height: 1.75;
+    }
+
+    .imprint-prose + .imprint-prose {
+      border-top: 1px solid var(--border);
+      padding-top: 1.2rem;
+    }
+
+    .imprint-section-gap { margin-top: 2.5rem; }
+
+    .imprint-section-heading {
+      font-size: 0.65rem;
+      font-family: var(--font-mono);
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: var(--red);
+      margin-bottom: 0.6rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .imprint-section-heading::before { content: ''; width: 16px; height: 2px; background: var(--red); }
+
+    .rights-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1px;
+      background: var(--border);
+    }
+
+    .rights-cell {
+      background: var(--bg-primary);
+      padding: 1rem 1.2rem;
+    }
+
+    .rights-cell h5 {
+      font-size: 0.8rem;
+      font-weight: 700;
+      margin-bottom: 0.3rem;
+      letter-spacing: -0.01em;
+    }
+
+    .rights-cell p {
+      font-size: 0.78rem;
+      color: var(--text-dim);
+      margin: 0;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 600px) {
+      .imprint-row { grid-template-columns: 1fr; }
+      .imprint-key { border-right: none; border-bottom: 1px solid var(--border); padding-bottom: 0.4rem; }
+      .rights-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ── NAV ──────────────────────────────────────────────────── -->
+  <nav id="navbar">
+    <a href="index.html" class="nav-logo">
+      <div class="nav-logo-mark">A</div>
+      APE STOIC
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html#services">Services</a></li>
+      <li><a href="index.html#process">Methodology</a></li>
+      <li><a href="index.html#why">Why Ape Stoic</a></li>
+      <li><a href="index.html#work">Work</a></li>
+      <li><a href="index.html#contact" class="nav-cta">Request Assessment</a></li>
+    </ul>
+  </nav>
+
+  <!-- ── CONTENT ───────────────────────────────────────────────── -->
+  <main class="imprint-page">
+
+    <div class="eyebrow">Legal</div>
+    <h1>Privacy Policy</h1>
+    <p class="imprint-intro">Last updated: February 2026 &nbsp;·&nbsp; Ape Stoic OÜ &nbsp;·&nbsp; GDPR compliant</p>
+
+    <!-- Controller -->
+    <div class="imprint-section-heading">Data Controller</div>
+    <div class="imprint-block">
+      <div class="imprint-block-title">Who is responsible for your data</div>
+      <div class="imprint-rows">
+        <div class="imprint-row">
+          <div class="imprint-key">Controller</div>
+          <div class="imprint-val">Ape Stoic OÜ</div>
+        </div>
+        <div class="imprint-row">
+          <div class="imprint-key">Address</div>
+          <div class="imprint-val">Sepapaja tn 6, 15551 Tallinn, Estonia</div>
+        </div>
+        <div class="imprint-row">
+          <div class="imprint-key">Contact</div>
+          <div class="imprint-val"><a href="mailto:ops@apestoic.com">ops@apestoic.com</a></div>
+        </div>
+        <div class="imprint-row">
+          <div class="imprint-key">Applicable Law</div>
+          <div class="imprint-val">EU General Data Protection Regulation (GDPR) 2016/679 and Estonian Personal Data Protection Act</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Data We Collect -->
+    <div class="imprint-section-gap"></div>
+    <div class="imprint-section-heading">Data We Collect</div>
+    <div class="imprint-block">
+      <div class="imprint-block-title">Contact & enquiry data</div>
+      <div class="imprint-rows">
+        <div class="imprint-row">
+          <div class="imprint-key">Data</div>
+          <div class="imprint-val">Name, work email address, company name, message content</div>
+        </div>
+        <div class="imprint-row">
+          <div class="imprint-key">How collected</div>
+          <div class="imprint-val">Contact form, email correspondence, or direct outreach</div>
+        </div>
+        <div class="imprint-row">
+          <div class="imprint-key">Purpose</div>
+          <div class="imprint-val">Responding to assessment requests, scoping engagements, and business communication</div>
+        </div>
+        <div class="imprint-row">
+          <div class="imprint-key">Legal basis</div>
+          <div class="imprint-val">Art. 6(1)(b) GDPR — performance of a contract or pre-contractual steps</div>
+        </div>
+        <div class="imprint-row">
+          <div class="imprint-key">Retention</div>
+          <div class="imprint-val">3 years from last contact, or for the duration of the contractual relationship</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="imprint-block">
+      <div class="imprint-block-title">Technical & usage data</div>
+      <div class="imprint-rows">
+        <div class="imprint-row">
+          <div class="imprint-key">Data</div>
+          <div class="imprint-val">IP address, browser type, pages visited, referrer URL, time of visit</div>
+        </div>
+        <div class="imprint-row">
+          <div class="imprint-key">How collected</div>
+          <div class="imprint-val">Server logs generated automatically when you visit this website</div>
+        </div>
+        <div class="imprint-row">
+          <div class="imprint-key">Purpose</div>
+          <div class="imprint-val">Website security, abuse prevention, and aggregate analytics</div>
+        </div>
+        <div class="imprint-row">
+          <div class="imprint-key">Legal basis</div>
+          <div class="imprint-val">Art. 6(1)(f) GDPR — legitimate interest in securing and operating the website</div>
+        </div>
+        <div class="imprint-row">
+          <div class="imprint-key">Retention</div>
+          <div class="imprint-val">30 days, then automatically deleted</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="imprint-block">
+      <div class="imprint-block-title">Engagement & contract data</div>
+      <div class="imprint-rows">
+        <div class="imprint-row">
+          <div class="imprint-key">Data</div>
+          <div class="imprint-val">Scope of work documents, signed authorisation letters, NDA content, engagement reports</div>
+        </div>
+        <div class="imprint-row">
+          <div class="imprint-key">Purpose</div>
+          <div class="imprint-val">Delivery of penetration testing and red team services, legal compliance</div>
+        </div>
+        <div class="imprint-row">
+          <div class="imprint-key">Legal basis</div>
+          <div class="imprint-val">Art. 6(1)(b) GDPR — contractual obligation; Art. 6(1)(c) — legal obligation</div>
+        </div>
+        <div class="imprint-row">
+          <div class="imprint-key">Retention</div>
+          <div class="imprint-val">7 years from contract end, in compliance with Estonian accounting and tax law</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cookies -->
+    <div class="imprint-section-gap"></div>
+    <div class="imprint-section-heading">Cookies</div>
+    <div class="imprint-block">
+      <div class="imprint-block-title">Cookie usage</div>
+      <div class="imprint-prose">
+        This website does not use tracking cookies, advertising cookies, or third-party analytics services.
+        We do not use Google Analytics, Meta Pixel, or any similar tracking technology.
+      </div>
+      <div class="imprint-prose">
+        If any functional cookies are set in the future (e.g. to remember form state), this policy will be updated
+        and consent obtained in accordance with Art. 6(1)(a) GDPR and the ePrivacy Directive.
+      </div>
+    </div>
+
+    <!-- Sharing -->
+    <div class="imprint-section-gap"></div>
+    <div class="imprint-section-heading">Data Sharing & Transfers</div>
+    <div class="imprint-block">
+      <div class="imprint-block-title">Third parties</div>
+      <div class="imprint-rows">
+        <div class="imprint-row">
+          <div class="imprint-key">Sale of data</div>
+          <div class="imprint-val">We never sell, rent, or trade personal data.</div>
+        </div>
+        <div class="imprint-row">
+          <div class="imprint-key">Service providers</div>
+          <div class="imprint-val">We may share data with vetted processors (e.g. email hosting, cloud infrastructure) under binding data processing agreements. All processors are contractually bound to GDPR obligations.</div>
+        </div>
+        <div class="imprint-row">
+          <div class="imprint-key">Legal disclosure</div>
+          <div class="imprint-val">We may disclose data if required by Estonian or EU law, court order, or to protect against fraud or security threats.</div>
+        </div>
+        <div class="imprint-row">
+          <div class="imprint-key">International transfers</div>
+          <div class="imprint-val">Data is processed within the EU/EEA. Any transfer outside the EEA is conducted under Standard Contractual Clauses (SCCs) approved by the European Commission.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Your Rights -->
+    <div class="imprint-section-gap"></div>
+    <div class="imprint-section-heading">Your Rights Under GDPR</div>
+    <div class="imprint-block">
+      <div class="imprint-block-title">Rights you can exercise at any time</div>
+      <div class="rights-grid">
+        <div class="rights-cell">
+          <h5>Right of Access</h5>
+          <p>Request a copy of the personal data we hold about you (Art. 15 GDPR).</p>
+        </div>
+        <div class="rights-cell">
+          <h5>Right to Rectification</h5>
+          <p>Request correction of inaccurate or incomplete data (Art. 16 GDPR).</p>
+        </div>
+        <div class="rights-cell">
+          <h5>Right to Erasure</h5>
+          <p>Request deletion of your data where there is no legal basis for continued processing (Art. 17 GDPR).</p>
+        </div>
+        <div class="rights-cell">
+          <h5>Right to Restriction</h5>
+          <p>Request that we limit how we use your data while a dispute is resolved (Art. 18 GDPR).</p>
+        </div>
+        <div class="rights-cell">
+          <h5>Right to Portability</h5>
+          <p>Receive your data in a structured, machine-readable format (Art. 20 GDPR).</p>
+        </div>
+        <div class="rights-cell">
+          <h5>Right to Object</h5>
+          <p>Object to processing based on legitimate interest at any time (Art. 21 GDPR).</p>
+        </div>
+      </div>
+      <div class="imprint-prose">
+        To exercise any of these rights, contact us at <a href="mailto:ops@apestoic.com">ops@apestoic.com</a>.
+        We will respond within 30 days. We may need to verify your identity before processing the request.
+      </div>
+    </div>
+
+    <!-- Supervisory Authority -->
+    <div class="imprint-section-gap"></div>
+    <div class="imprint-section-heading">Supervisory Authority</div>
+    <div class="imprint-block">
+      <div class="imprint-block-title">Right to lodge a complaint</div>
+      <div class="imprint-rows">
+        <div class="imprint-row">
+          <div class="imprint-key">Authority</div>
+          <div class="imprint-val">Estonian Data Protection Inspectorate (Andmekaitse Inspektsioon)</div>
+        </div>
+        <div class="imprint-row">
+          <div class="imprint-key">Website</div>
+          <div class="imprint-val"><a href="https://www.aki.ee" target="_blank" rel="noopener noreferrer">www.aki.ee</a></div>
+        </div>
+        <div class="imprint-row">
+          <div class="imprint-key">Email</div>
+          <div class="imprint-val"><a href="mailto:info@aki.ee">info@aki.ee</a></div>
+        </div>
+      </div>
+      <div class="imprint-prose">
+        You have the right to lodge a complaint with the Estonian Data Protection Inspectorate if you believe
+        your data has been processed unlawfully. You may also contact the supervisory authority of your EU
+        member state of residence.
+      </div>
+    </div>
+
+    <!-- Security -->
+    <div class="imprint-section-gap"></div>
+    <div class="imprint-section-heading">Security</div>
+    <div class="imprint-block">
+      <div class="imprint-block-title">How we protect your data</div>
+      <div class="imprint-prose">
+        As a cybersecurity firm, data security is not an afterthought — it is our business. We apply
+        industry-standard technical and organisational measures including encryption in transit and at rest,
+        access control with least-privilege principles, and regular internal security reviews. Engagement data
+        and client information is handled under strict confidentiality obligations.
+      </div>
+    </div>
+
+    <!-- Changes -->
+    <div class="imprint-section-gap"></div>
+    <div class="imprint-section-heading">Changes to This Policy</div>
+    <div class="imprint-block">
+      <div class="imprint-block-title">Policy updates</div>
+      <div class="imprint-prose">
+        We may update this Privacy Policy from time to time. The date at the top of the page reflects the
+        most recent revision. Material changes will be communicated directly to clients with active contracts.
+        Continued use of this website after changes constitutes acceptance of the updated policy.
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ── FOOTER ────────────────────────────────────────────────── -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div>
+          <div class="footer-logo">
+            <div class="footer-logo-mark">A</div>
+            APE STOIC
+          </div>
+          <p class="footer-brand-desc">
+            Elite penetration testing, red team, and offensive AI operations for organizations that take security seriously.
+          </p>
+          <div class="footer-contact-links">
+            <a href="mailto:ops@apestoic.com">ops@apestoic.com</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h5>Head Quarters</h5>
+          <p class="footer-brand-desc">
+            Ape Stoic OÜ<br />
+            Sepapaja tn 6,<br />
+            15551 Tallinn, Estonia
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h5>Europe First</h5>
+          <p class="footer-brand-desc">Forged in Europe.<br />For Europe. 🇪🇪</p>
+        </div>
+
+        <div class="footer-col">
+          <h5>Social</h5>
+          <div class="footer-social">
+            <a href="https://x.com/apestoic" target="_blank" rel="noopener noreferrer" aria-label="X / Twitter">𝕏</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Ape Stoic OÜ</p>
+        <div class="footer-legal">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of use</a>
+          <a href="imprint.html">Imprint</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

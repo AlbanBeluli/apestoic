@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ape Stoic — Penetration Testing, Red Team & Offensive AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="loading">
+
+  <!-- ── NAV ──────────────────────────────────────────────────── -->
+  <nav id="navbar">
+    <a href="#" class="nav-logo">
+      <div class="nav-logo-mark">A</div>
+      APE STOIC
+    </a>
+    <ul class="nav-links">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#process">Methodology</a></li>
+      <li><a href="#why">Why Ape Stoic</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#contact" class="nav-cta">Request Assessment</a></li>
+    </ul>
+  </nav>
+
+  <!-- ── HERO ─────────────────────────────────────────────────── -->
+  <main>
+    <div class="hero container">
+      <div>
+        <div class="hero-eyebrow">Offensive Security</div>
+        <h1>
+          We Break In.<br />
+          So Attackers<br />
+          <em>Can't.</em>
+        </h1>
+        <p class="hero-sub">
+          Ape Stoic is an elite penetration testing, red team, and offensive AI firm.
+          We simulate real-world adversaries — human and machine — to expose critical weaknesses
+          before they become breaches.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn-primary">Request an Assessment</a>
+          <a href="#services" class="btn-ghost">View Services</a>
+        </div>
+        <div class="hero-trust">
+          <span class="trust-dot"></span>
+          Active engagements in progress — cleared operators available
+        </div>
+      </div>
+
+      <div class="terminal-wrap fade-up">
+        <div class="terminal-label">Ape Stoic Sentinel // Live Engagement Feed</div>
+        <div class="terminal">
+          <div class="t-bar">
+            <div class="t-dot"></div>
+            <div class="t-dot"></div>
+            <div class="t-dot"></div>
+            <span class="t-title">APE STOIC // RED-TEAM-OP-47</span>
+          </div>
+          <div class="t-line"><span class="t-prompt">$</span><span class="t-cmd"> nmap -sV -p- --open 10.42.0.0/24</span></div>
+          <div class="t-line"><span class="t-dim">Discovered open port 22/tcp on 10.42.0.14</span></div>
+          <div class="t-line"><span class="t-dim">Discovered open port 8443/tcp on 10.42.0.31</span></div>
+          <div class="t-line"><span class="t-warn">! CVE-2024-3400 — PAN-OS cmd injection [CRITICAL]</span></div>
+          <div class="t-gap"></div>
+          <div class="t-line"><span class="t-prompt">$</span><span class="t-cmd"> ./exploit.py --target 10.42.0.31 --cve 2024-3400</span></div>
+          <div class="t-line"><span class="t-out">✓ Shell obtained: root@fw-edge-01</span></div>
+          <div class="t-line"><span class="t-out">✓ Pivoting to internal VLAN 10.10.0.0/16</span></div>
+          <div class="t-gap"></div>
+          <div class="t-line"><span class="t-prompt">$</span><span class="t-cmd"> bloodhound-python -d corp.internal -u svc_scan</span></div>
+          <div class="t-line"><span class="t-out">✓ 1,847 objects ingested</span></div>
+          <div class="t-line"><span class="t-warn">! Shortest path to DA: 3 hops via KERBEROAST</span></div>
+          <div class="t-gap"></div>
+          <div class="t-line"><span class="t-prompt">$</span><span class="t-cmd"> impacket-secretsdump -just-dc corp.internal/admin</span></div>
+          <div class="t-line"><span class="t-err">■ Domain Admin hash captured — objective complete</span></div>
+          <div class="t-gap"></div>
+          <div class="t-line"><span class="t-prompt">$</span><span class="t-dim"> _<span class="blink"></span></span></div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- ── TICKER ────────────────────────────────────────────────── -->
+  <div class="divider-bar">
+    <div class="ticker" id="ticker">
+      <span class="ticker-item"><b>◆</b>Network Penetration Testing</span>
+      <span class="ticker-item"><b>◆</b>Red Team Operations</span>
+      <span class="ticker-item"><b>◆</b>Web Application Testing</span>
+      <span class="ticker-item"><b>◆</b>Active Directory Attacks</span>
+      <span class="ticker-item"><b>◆</b>Social Engineering</span>
+      <span class="ticker-item"><b>◆</b>Offensive AI</span>
+      <span class="ticker-item"><b>◆</b>Physical Security</span>
+      <span class="ticker-item"><b>◆</b>Threat Intelligence</span>
+      <span class="ticker-item"><b>◆</b>Purple Team Exercises</span>
+      <span class="ticker-item"><b>◆</b>Network Penetration Testing</span>
+      <span class="ticker-item"><b>◆</b>Red Team Operations</span>
+      <span class="ticker-item"><b>◆</b>Web Application Testing</span>
+      <span class="ticker-item"><b>◆</b>Active Directory Attacks</span>
+      <span class="ticker-item"><b>◆</b>Social Engineering</span>
+      <span class="ticker-item"><b>◆</b>Offensive AI</span>
+      <span class="ticker-item"><b>◆</b>Physical Security</span>
+      <span class="ticker-item"><b>◆</b>Threat Intelligence</span>
+      <span class="ticker-item"><b>◆</b>Purple Team Exercises</span>
+    </div>
+  </div>
+
+  <!-- ── LOGOS ─────────────────────────────────────────────────── -->
+  <div class="logos-row">
+    <div class="logos-inner">
+      <span class="logo-txt">Fortune 500</span>
+      <span class="logo-txt">Financial Services</span>
+      <span class="logo-txt">Healthcare</span>
+      <span class="logo-txt">Defense Contractors</span>
+      <span class="logo-txt">Critical Infrastructure</span>
+      <span class="logo-txt">SaaS / Tech</span>
+      <span class="logo-txt">Private Equity</span>
+      <span class="logo-txt">Fortune 500</span>
+      <span class="logo-txt">Financial Services</span>
+      <span class="logo-txt">Healthcare</span>
+      <span class="logo-txt">Defense Contractors</span>
+      <span class="logo-txt">Critical Infrastructure</span>
+      <span class="logo-txt">SaaS / Tech</span>
+      <span class="logo-txt">Private Equity</span>
+    </div>
+  </div>
+
+  <!-- ── SERVICES ──────────────────────────────────────────────── -->
+  <section class="section services-bg" id="services">
+    <div class="container">
+      <div class="services-header fade-up">
+        <div>
+          <div class="eyebrow">Services</div>
+          <h2 class="section-title">Full-Spectrum Offensive Security</h2>
+        </div>
+        <p class="section-sub">
+          Every engagement is scoped to your threat model, staffed with operators who have done this in the real world — networks, applications, and AI systems — not just a lab.
+        </p>
+      </div>
+
+      <div class="services-grid fade-up">
+        <div class="svc-card">
+          <div class="svc-num">01 — Network Pentest</div>
+          <h3>External & Internal Network Penetration Testing</h3>
+          <p>Full-scope testing of your perimeter and internal network. We enumerate, exploit, and escalate — then show you exactly how we got in and how to stop the next attacker.</p>
+          <div class="svc-tags">
+            <span class="svc-tag">NMAP</span>
+            <span class="svc-tag">Metasploit</span>
+            <span class="svc-tag">Cobalt Strike</span>
+            <span class="svc-tag">BloodHound</span>
+          </div>
+        </div>
+        <div class="svc-card">
+          <div class="svc-num">02 — Red Team</div>
+          <h3>Adversary Simulation & Red Team Operations</h3>
+          <p>Multi-week engagements simulating nation-state or advanced persistent threat actors. Test your detection, response, and containment capabilities under realistic attack conditions.</p>
+          <div class="svc-tags">
+            <span class="svc-tag">APT TTPs</span>
+            <span class="svc-tag">MITRE ATT&CK</span>
+            <span class="svc-tag">C2 Infra</span>
+            <span class="svc-tag">Living off the Land</span>
+          </div>
+        </div>
+        <div class="svc-card">
+          <div class="svc-num">03 — Web & API</div>
+          <h3>Web Application & API Security Testing</h3>
+          <p>Manual-first application testing covering OWASP Top 10, business logic flaws, authentication bypasses, and API-specific attack chains that scanners miss.</p>
+          <div class="svc-tags">
+            <span class="svc-tag">Burp Suite Pro</span>
+            <span class="svc-tag">OWASP</span>
+            <span class="svc-tag">GraphQL</span>
+            <span class="svc-tag">OAuth/OIDC</span>
+          </div>
+        </div>
+        <div class="svc-card">
+          <div class="svc-num">04 — Active Directory</div>
+          <h3>Active Directory & Identity Attack Paths</h3>
+          <p>Kerberoasting, AS-REP roasting, ACL abuse, DCSync, and beyond. We map every path to Domain Admin and show you how to sever them.</p>
+          <div class="svc-tags">
+            <span class="svc-tag">BloodHound</span>
+            <span class="svc-tag">Impacket</span>
+            <span class="svc-tag">Rubeus</span>
+            <span class="svc-tag">Mimikatz</span>
+          </div>
+        </div>
+        <div class="svc-card">
+          <div class="svc-num">05 — Social Eng.</div>
+          <h3>Social Engineering & Phishing Campaigns</h3>
+          <p>Targeted phishing, vishing, and pretexting operations to quantify human risk. Paired with awareness training recommendations to close the gap.</p>
+          <div class="svc-tags">
+            <span class="svc-tag">Spear Phishing</span>
+            <span class="svc-tag">Vishing</span>
+            <span class="svc-tag">Physical</span>
+            <span class="svc-tag">GoPhish</span>
+          </div>
+        </div>
+        <div class="svc-card">
+          <div class="svc-num">06 — Offensive AI</div>
+          <h3>Offensive AI & LLM Security Testing</h3>
+          <p>Adversarial attacks against AI systems: prompt injection, jailbreaking, model extraction, and data poisoning. We test LLM-integrated applications the same way an attacker would — systematically and without mercy.</p>
+          <div class="svc-tags">
+            <span class="svc-tag">Prompt Injection</span>
+            <span class="svc-tag">Jailbreaking</span>
+            <span class="svc-tag">LLM Recon</span>
+            <span class="svc-tag">Model Exfiltration</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROCESS ────────────────────────────────────────────────── -->
+  <section class="section" id="process">
+    <div class="container">
+      <div class="fade-up">
+        <div class="eyebrow">Methodology</div>
+        <h2 class="section-title">How We Work</h2>
+        <p class="section-sub">A structured, intelligence-driven process that mirrors real attacker behavior — from initial scoping to executive debrief.</p>
+      </div>
+      <div class="process-grid fade-up">
+        <div class="process-step">
+          <div class="step-n">01</div>
+          <h4>Scope & Threat Model</h4>
+          <p>Define targets, rules of engagement, and the specific adversary persona we'll emulate.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-n">02</div>
+          <h4>Reconnaissance</h4>
+          <p>OSINT, passive recon, attack surface mapping — build a complete picture before touching anything.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-n">03</div>
+          <h4>Exploitation</h4>
+          <p>Gain access using real-world techniques. Avoid noisy tools. Operate like an attacker who wants to stay hidden.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-n">04</div>
+          <h4>Post-Exploitation</h4>
+          <p>Lateral movement, privilege escalation, and persistence. Prove the full blast radius of each finding.</p>
+        </div>
+        <div class="process-step">
+          <div class="step-n">05</div>
+          <h4>Report & Debrief</h4>
+          <p>Clear, prioritized findings for technical and executive audiences. Remediation verified on request.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PRINCIPLES STRIP ───────────────────────────────────────── -->
+  <div class="stats-strip">
+    <div>
+      <div class="stat-num" style="font-size:1.4rem; letter-spacing:-0.02em">Manual. Always.</div>
+      <div class="stat-desc" style="margin-top:0.6rem">Every finding hand-verified by a human operator.</div>
+    </div>
+    <div>
+      <div class="stat-num" style="font-size:1.4rem; letter-spacing:-0.02em">No Noise.</div>
+      <div class="stat-desc" style="margin-top:0.6rem">We only report what matters. Real impact.</div>
+    </div>
+    <div>
+      <div class="stat-num" style="font-size:1.4rem; letter-spacing:-0.02em">Europe First.</div>
+      <div class="stat-desc" style="margin-top:0.6rem">Based in Estonia. GDPR-aligned. EU law governed.</div>
+    </div>
+    <div>
+      <div class="stat-num" style="font-size:1.4rem; letter-spacing:-0.02em">Direct Access.</div>
+      <div class="stat-desc" style="margin-top:0.6rem">You talk to the operator running your engagement.</div>
+    </div>
+  </div>
+
+  <!-- ── PHOTO BANNER ──────────────────────────────────────────── -->
+  <div class="photo-banner">
+    <img
+      src="img/miltec1.jpg"
+      alt="Military operator in the field"
+      loading="lazy"
+    />
+    <div class="photo-banner-scanlines"></div>
+
+    <!-- Corner viewfinder brackets -->
+    <div class="photo-banner-corner photo-banner-corner--tl"></div>
+    <div class="photo-banner-corner photo-banner-corner--tr"></div>
+    <div class="photo-banner-corner photo-banner-corner--bl"></div>
+    <div class="photo-banner-corner photo-banner-corner--br"></div>
+
+    <!-- HUD data readouts -->
+    <div class="photo-banner-hud photo-banner-hud--tl">
+      OP // IRONCLAD<br />
+      STATUS // ACTIVE<br />
+      THREAT // ELEVATED
+    </div>
+    <div class="photo-banner-hud photo-banner-hud--tr">
+      59°26'14"N 24°44'43"E
+    </div>
+    <div class="photo-banner-hud photo-banner-hud--br">
+      APE STOIC // RED TEAM OPS<br />
+      CLASSIFICATION // CONFIDENTIAL
+    </div>
+
+    <div class="photo-banner-overlay">
+      <div class="photo-banner-text">
+        <div class="eyebrow">Built by Operators</div>
+        <h2>We've Been on Both Sides of the Wire.</h2>
+        <p>Our team has operated in government, military intelligence, and private sector red teams. We bring that experience into every engagement — no theory, no guesswork.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── WHY STOIC ─────────────────────────────────────────────── -->
+  <section class="section" id="why">
+    <div class="container why-grid">
+      <div class="fade-up">
+        <div class="eyebrow">Why Ape Stoic</div>
+        <h2 class="section-title">Operators First. Always.</h2>
+        <p class="section-sub">We're not a checkbox compliance shop. Every engagement is led by operators who have done real-world offensive work — in government, military, private sector, and AI contexts.</p>
+
+        <ul class="why-list">
+          <li class="why-item">
+            <div class="why-check">✓</div>
+            <div>
+              <h4>No automated scanner reports</h4>
+              <p>Every finding is manually verified. No false positives padded into your report to look busy.</p>
+            </div>
+          </li>
+          <li class="why-item">
+            <div class="why-check">✓</div>
+            <div>
+              <h4>Cleared & credentialed operators</h4>
+              <p>Operators with DoD clearances available for sensitive government and defense engagements.</p>
+            </div>
+          </li>
+          <li class="why-item">
+            <div class="why-check">✓</div>
+            <div>
+              <h4>Custom tooling and C2 infrastructure</h4>
+              <p>We build and maintain our own offensive tools — not relying on public commodity kits your EDR already detects.</p>
+            </div>
+          </li>
+          <li class="why-item">
+            <div class="why-check">✓</div>
+            <div>
+              <h4>Remediation validation included</h4>
+              <p>After you fix issues, we verify the fix — no extra charge. Patches that don't hold aren't remediated.</p>
+            </div>
+          </li>
+          <li class="why-item">
+            <div class="why-check">✓</div>
+            <div>
+              <h4>Direct operator access</h4>
+              <p>You talk directly to the person running the engagement. No account managers, no relay race with your findings.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="fade-up">
+        <div class="terminal-label" style="color:var(--text-dim); font-family:var(--font-mono); font-size:0.6rem; text-transform:uppercase; letter-spacing:0.18em; margin-bottom:0.6rem">Sample Engagement Scope Card</div>
+        <div class="scope-card">
+          <div class="scope-header">
+            <span>APE STOIC // OP-IRONCLAD</span>
+            <span class="scope-live"><span class="scope-live-dot"></span>ACTIVE</span>
+          </div>
+          <div class="scope-line">Client:       <span class="scope-key">REDACTED (F500 FinSvc)</span></div>
+          <div class="scope-line">Type:         <span class="scope-ok">Full Red Team — Assumed No Access</span></div>
+          <div class="scope-line">Duration:     <span class="scope-key">6 weeks</span></div>
+          <div class="scope-line">Persona:      <span class="scope-warn">FIN7-inspired threat actor</span></div>
+          <div class="scope-line">Objectives:</div>
+          <div class="scope-line">&nbsp;&nbsp;[1] <span class="scope-hit">Exfiltrate PII dataset (&gt;10k records)</span></div>
+          <div class="scope-line">&nbsp;&nbsp;[2] <span class="scope-hit">Achieve DA in corp.internal</span></div>
+          <div class="scope-line">&nbsp;&nbsp;[3] <span class="scope-hit">Compromise wire-transfer system</span></div>
+          <div style="height:0.5rem"></div>
+          <div class="scope-line">Day 12 Status:</div>
+          <div class="scope-line">&nbsp;&nbsp;- <span class="scope-ok">Perimeter breached via phishing</span></div>
+          <div class="scope-line">&nbsp;&nbsp;- <span class="scope-ok">Foothold on CITRIX-GATEWAY-02</span></div>
+          <div class="scope-line">&nbsp;&nbsp;- <span class="scope-warn">Lateral movement in progress</span></div>
+          <div class="scope-line">&nbsp;&nbsp;- <span class="scope-hit">3 objectives outstanding</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── DELIVERABLES ───────────────────────────────────────────── -->
+  <section class="section services-bg" id="work">
+    <div class="container">
+      <div class="fade-up">
+        <div class="eyebrow">Deliverables</div>
+        <h2 class="section-title">What You Get</h2>
+        <p class="section-sub">Reports written for both your CISO and your DevSecOps team — with evidence, reproduction steps, and business impact for every finding.</p>
+      </div>
+      <div class="deliver-grid fade-up">
+        <div class="deliver-card">
+          <h4>Executive Summary</h4>
+          <p>Non-technical narrative of what we found, what it means for the business, and top three priorities for leadership.</p>
+        </div>
+        <div class="deliver-card">
+          <h4>Technical Report</h4>
+          <p>Every finding with full evidence, CVSS scores, attack chain visualization, and step-by-step remediation guidance.</p>
+        </div>
+        <div class="deliver-card">
+          <h4>Attack Timeline</h4>
+          <p>Chronological replay of the engagement — every action we took, every pivot, every missed detection opportunity.</p>
+        </div>
+        <div class="deliver-card">
+          <h4>Detection Gap Analysis</h4>
+          <p>MITRE ATT&CK heatmap showing which techniques your SOC caught, which it didn't, and recommended detection rules.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PHOTO GRID ────────────────────────────────────────────── -->
+  <div class="photo-grid">
+    <div class="photo-cell">
+      <img
+        src="img/miltec4.jpg"
+        alt="Operator with weapon"
+        loading="lazy"
+      />
+      <div class="photo-cell-overlay"></div>
+      <div class="photo-cell-label">Field Operations</div>
+    </div>
+    <div class="photo-cell">
+      <img
+        src="img/miltec2.jpg"
+        alt="Tactical engagement"
+        loading="lazy"
+        style="object-position: 70% center"
+      />
+      <div class="photo-cell-overlay"></div>
+      <div class="photo-cell-label">Red Team Operations</div>
+    </div>
+    <div class="photo-cell">
+      <img
+        src="img/miltec3.jpg"
+        alt="Military readiness"
+        loading="lazy"
+        style="object-position: 30% center"
+      />
+      <div class="photo-cell-overlay"></div>
+      <div class="photo-cell-label">Adversary Simulation</div>
+    </div>
+  </div>
+
+
+<!-- ── CTA ───────────────────────────────────────────────────── -->
+<section class="cta-section" id="contact">
+  <div class="eyebrow" style="justify-content:center; color:var(--red)">Get Started</div>
+  <h2 class="fade-up">Find Your <em>Weaknesses</em><br />Before Attackers Do.</h2>
+  <p class="fade-up">Tell us about your environment. We'll scope an engagement, quote a timeline, and have operators on your network within weeks.</p>
+  <div class="cta-form fade-up">
+    <a href="mailto:ops@apestoic.com?subject=Assessment%20Request" class="btn-primary">Request Assessment</a>
+  </div>
+  <p class="cta-note fade-up">NDA available on request · Engagements typically begin within 2–3 weeks</p>
+</section>
+
+  <!-- ── FOOTER ────────────────────────────────────────────────── -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div>
+          <div class="footer-logo">
+            <div class="footer-logo-mark">A</div>
+            APE STOIC
+          </div>
+          <p class="footer-brand-desc">
+            Elite penetration testing, red team, and offensive AI operations for organizations that take security seriously.
+          </p>
+          <div class="footer-contact-links">
+            <a href="mailto:ops@apestoic.com">ops@apestoic.com</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h5>Head Quarters</h5>
+          <p class="footer-brand-desc">
+            Ape Stoic OÜ<br />
+            Sepapaja tn 6,<br />
+            15551 Tallinn, Estonia
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h5>Pages</h5>
+          <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Europe First</h5>
+          <p class="footer-brand-desc">Forged in Europe.<br /> 
+            For Europe. 🇪🇪
+          </p>
+        </div>
+
+      <div class="footer-col">
+        <h5>Social</h5>
+        <div class="footer-social">
+          <a href="https://x.com/apestoic" target="_blank" rel="noopener noreferrer" aria-label="X / Twitter">𝕏</a>
+        </div>
+      </div>
+    </div>
+
+
+
+      <div class="footer-bottom">
+        <p>© 2026 Ape Stoic OÜ</p>
+        <div class="footer-legal">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of use</a>
+          <a href="imprint.html">Imprint</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

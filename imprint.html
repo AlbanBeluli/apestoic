@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Imprint — Ape Stoic OÜ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .imprint-page {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 9rem 2.5rem 6rem;
+    }
+
+    .imprint-page h1 {
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 900;
+      letter-spacing: -0.04em;
+      line-height: 1.1;
+      margin-bottom: 0.5rem;
+    }
+
+    .imprint-intro {
+      font-size: 0.88rem;
+      color: var(--text-dim);
+      margin-bottom: 3rem;
+      font-family: var(--font-mono);
+      letter-spacing: 0.05em;
+    }
+
+    .imprint-block {
+      border: 1px solid var(--border);
+      margin-bottom: 1px;
+    }
+
+    .imprint-block:first-of-type { border-top: 2px solid var(--red); }
+
+    .imprint-block-title {
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      padding: 0.7rem 1.2rem;
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: var(--text-dim);
+    }
+
+    .imprint-rows { display: flex; flex-direction: column; }
+
+    .imprint-row {
+      display: grid;
+      grid-template-columns: 200px 1fr;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .imprint-row:last-child { border-bottom: none; }
+
+    .imprint-key {
+      padding: 0.9rem 1.2rem;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--text-dim);
+      border-right: 1px solid var(--border);
+    }
+
+    .imprint-val {
+      padding: 0.9rem 1.2rem;
+      font-size: 0.85rem;
+      color: var(--text-primary);
+      line-height: 1.6;
+    }
+
+    .imprint-val a {
+      color: var(--red);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    .imprint-val a:hover { color: var(--red-dark); }
+
+    .imprint-val .placeholder {
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--text-dim);
+      background: var(--bg-secondary);
+      border: 1px dashed var(--border);
+      padding: 0.2rem 0.6rem;
+      display: inline-block;
+    }
+
+    .imprint-prose {
+      padding: 1.2rem;
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      line-height: 1.75;
+    }
+
+    .imprint-section-gap { margin-top: 2.5rem; }
+
+    .imprint-section-heading {
+      font-size: 0.65rem;
+      font-family: var(--font-mono);
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: var(--red);
+      margin-bottom: 0.6rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .imprint-section-heading::before { content: ''; width: 16px; height: 2px; background: var(--red); }
+
+    @media (max-width: 600px) {
+      .imprint-row { grid-template-columns: 1fr; }
+      .imprint-key { border-right: none; border-bottom: 1px solid var(--border); padding-bottom: 0.4rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ── NAV ──────────────────────────────────────────────────── -->
+  <nav id="navbar">
+    <a href="index.html" class="nav-logo">
+      <div class="nav-logo-mark">A</div>
+      APE STOIC
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html#services">Services</a></li>
+      <li><a href="index.html#process">Methodology</a></li>
+      <li><a href="index.html#why">Why Ape Stoic</a></li>
+      <li><a href="index.html#work">Work</a></li>
+      <li><a href="index.html#contact" class="nav-cta">Request Assessment</a></li>
+    </ul>
+  </nav>
+
+  <!-- ── CONTENT ───────────────────────────────────────────────── -->
+  <main class="imprint-page">
+
+    <div class="eyebrow">Legal</div>
+    <h1>Imprint</h1>
+    <p class="imprint-intro">Information in accordance with § 5 TMG and applicable EU regulations.</p>
+
+    <!-- Company Information -->
+    <div class="imprint-section-heading">Company Information</div>
+    <div class="imprint-block">
+      <div class="imprint-block-title">Registered Entity</div>
+      <div class="imprint-rows">
+        <div class="imprint-row">
+          <div class="imprint-key">Company Name</div>
+          <div class="imprint-val">Ape Stoic OÜ</div>
+        </div>
+        <div class="imprint-row">
+          <div class="imprint-key">Legal Form</div>
+          <div class="imprint-val">Private Limited Company (OÜ)</div>
+        </div>
+        <div class="imprint-row">
+          <div class="imprint-key">Registration Number</div>
+          <div class="imprint-val"><span class="placeholder">To be added</span></div>
+        </div>
+        <div class="imprint-row">
+          <div class="imprint-key">VAT Number</div>
+          <div class="imprint-val"><span class="placeholder">To be added</span></div>
+        </div>
+        <div class="imprint-row">
+          <div class="imprint-key">Register</div>
+          <div class="imprint-val">Estonian Commercial Register (Äriregister)</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Registered Office -->
+    <div class="imprint-block">
+      <div class="imprint-block-title">Registered Office</div>
+      <div class="imprint-rows">
+        <div class="imprint-row">
+          <div class="imprint-key">Address</div>
+          <div class="imprint-val">Sepapaja tn 6<br />15551 Tallinn<br />Estonia</div>
+        </div>
+        <div class="imprint-row">
+          <div class="imprint-key">Country</div>
+          <div class="imprint-val">Republic of Estonia 🇪🇪</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="imprint-block">
+      <div class="imprint-block-title">Contact</div>
+      <div class="imprint-rows">
+        <div class="imprint-row">
+          <div class="imprint-key">General Enquiries</div>
+          <div class="imprint-val"><a href="mailto:ops@apestoic.com">ops@apestoic.com</a></div>
+        </div>
+        <div class="imprint-row">
+          <div class="imprint-key">Responsible for Content</div>
+          <div class="imprint-val">Alban Beluli</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Management -->
+    <div class="imprint-section-gap"></div>
+    <div class="imprint-section-heading">Management</div>
+    <div class="imprint-block">
+      <div class="imprint-block-title">Management & Ownership</div>
+      <div class="imprint-rows">
+        <div class="imprint-row">
+          <div class="imprint-key">Managing Director</div>
+          <div class="imprint-val">Alban Beluli</div>
+        </div>
+        <div class="imprint-row">
+          <div class="imprint-key">Ownership</div>
+          <div class="imprint-val">Alban Beluli owns 100% of Ape Stoic OÜ</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Legal Information -->
+    <div class="imprint-section-gap"></div>
+    <div class="imprint-section-heading">Legal Information</div>
+    <div class="imprint-block">
+      <div class="imprint-block-title">Registration & Authorities</div>
+      <div class="imprint-rows">
+        <div class="imprint-row">
+          <div class="imprint-key">Commercial Register</div>
+          <div class="imprint-val">Registered with the Estonian Commercial Register</div>
+        </div>
+        <div class="imprint-row">
+          <div class="imprint-key">Court of Registry</div>
+          <div class="imprint-val">Harju County Court</div>
+        </div>
+        <div class="imprint-row">
+          <div class="imprint-key">Supervisory Authority</div>
+          <div class="imprint-val">Estonian Tax and Customs Board</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Dispute Resolution -->
+    <div class="imprint-section-gap"></div>
+    <div class="imprint-section-heading">Dispute Resolution</div>
+    <div class="imprint-block">
+      <div class="imprint-block-title">EU Online Dispute Resolution</div>
+      <div class="imprint-prose">
+        The European Commission provides a platform for online dispute resolution (ODR):
+        <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener noreferrer">https://ec.europa.eu/consumers/odr</a>.
+        You will find our email address above. We are not obliged to participate in dispute
+        resolution proceedings before a consumer arbitration board and do not generally do so.
+      </div>
+    </div>
+
+    <!-- Liability -->
+    <div class="imprint-section-gap"></div>
+    <div class="imprint-section-heading">Liability</div>
+    <div class="imprint-block">
+      <div class="imprint-block-title">Liability for Content</div>
+      <div class="imprint-prose">
+        As a service provider, we are responsible for our own content on these pages in accordance
+        with general legislation. However, we are not obliged to monitor transmitted or stored
+        third-party information or to investigate circumstances that indicate illegal activity.
+        Obligations to remove or block the use of information under general laws remain unaffected.
+        Liability in this regard is only possible from the time of knowledge of a specific
+        infringement. Upon notification of such violations, we will remove the content immediately.
+      </div>
+    </div>
+    <div class="imprint-block">
+      <div class="imprint-block-title">Liability for Links</div>
+      <div class="imprint-prose">
+        Our website contains links to external third-party websites over whose content we have no
+        influence. We therefore cannot accept any liability for this external content. The respective
+        provider or operator of the pages is always responsible for the content of the linked pages.
+        The linked pages were checked for possible legal violations at the time of linking. Illegal
+        content was not recognisable at the time of linking. Permanent monitoring of the content of
+        linked pages is not reasonable without concrete evidence of an infringement. Upon
+        notification of violations, we will remove such links immediately.
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="imprint-section-gap"></div>
+    <div class="imprint-section-heading">Copyright</div>
+    <div class="imprint-block">
+      <div class="imprint-block-title">Intellectual Property</div>
+      <div class="imprint-prose">
+        The content and works created by the site operators on these pages are subject to
+        copyright law. Duplication, processing, distribution, or any form of commercialisation
+        of such material beyond the scope of copyright law requires the prior written consent
+        of its respective author or creator. Downloads and copies of this site are only permitted
+        for private, non-commercial use. Where content on this site was not created by the
+        operator, third-party copyrights are respected. Should you nevertheless become aware of
+        a copyright infringement, please notify us accordingly. Upon notification of violations,
+        we will remove such content immediately.
+      </div>
+    </div>
+    <div class="imprint-block">
+      <div class="imprint-block-title">Notice</div>
+      <div class="imprint-prose">
+        © 2026 Ape Stoic OÜ. All rights reserved. All penetration testing and red team engagements
+        are conducted exclusively under written authorisation from the asset owner.
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ── FOOTER ────────────────────────────────────────────────── -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div>
+          <div class="footer-logo">
+            <div class="footer-logo-mark">A</div>
+            APE STOIC
+          </div>
+          <p class="footer-brand-desc">
+            Elite penetration testing, red team, and offensive AI operations for organizations that take security seriously.
+          </p>
+          <div class="footer-contact-links">
+            <a href="mailto:ops@apestoic.com">ops@apestoic.com</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h5>Head Quarters</h5>
+          <p class="footer-brand-desc">
+            Ape Stoic OÜ<br />
+            Sepapaja tn 6,<br />
+            15551 Tallinn, Estonia
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h5>Europe First</h5>
+          <p class="footer-brand-desc">Forged in Europe.<br />For Europe. 🇪🇪</p>
+        </div>
+
+        <div class="footer-col">
+          <h5>Social</h5>
+          <div class="footer-social">
+            <a href="https://x.com/apestoic" target="_blank" rel="noopener noreferrer" aria-label="X / Twitter">𝕏</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Ape Stoic OÜ</p>
+        <div class="footer-legal">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of use</a>
+          <a href="imprint.html">Imprint</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+
+</body>
+</html>
